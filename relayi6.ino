@@ -61,7 +61,7 @@ void loop() {
   ch5 = map(analogRead(10), 0, 1023, -255, 255);
   ch6 = map(analogRead(11), 0, 1023, -255, 255);
 
-  Serial.print("ch1 = "); Serial.println(ch1);
+ /* Serial.print("ch1 = "); Serial.println(ch1);
   delay(200);
   Serial.print("ch2 = "); Serial.println(ch2);
   delay(200);
@@ -72,7 +72,7 @@ void loop() {
   Serial.print("ch5 = "); Serial.println(ch5);
   delay(200);
   Serial.print("ch6 = "); Serial.println(ch6);
-  delay(200);
+  delay(200); */
   
   if ( ch1>10 || ch1<-10 )
   {
